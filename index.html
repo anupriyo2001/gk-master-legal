@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GK Master — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; --bg: #ffffff; --fg: #1d1b2c; --muted: #5d5a73; --accent: #5b3fd6; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0f0d1f; --fg: #eceaf7; --muted: #a9a5c4; --accent: #a592ff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 system-ui, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  p, li { color: var(--fg); }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid color-mix(in srgb, var(--muted) 30%, transparent); }
+</style>
+</head>
+<body><main>
+<h1>Privacy Policy</h1>
+<p class="muted">GK Master · Last updated 13 November 2026</p>
+
+<p>GK Master is a quiz app for competitive-exam practice. This policy explains what information the app uses, why, who receives it, and the choices you have.</p>
+
+<h2>Your account</h2>
+<p>To use GK Master you sign in with an email address and password, or with your Google account. Sign-in is provided by Google Firebase Authentication. We receive your email address and an account ID, and use them only to run your account (sign-in, email verification, password reset and restoring your progress on a new phone). We never see your password, and with Google sign-in we never see your Google password.</p>
+
+<h2>Progress saved to your account</h2>
+<p>Your quiz progress (answers, scores, quiz sessions, bookmarks, mistakes and app settings) is saved on your phone and copied to your account in Google Cloud Firestore (stored in Mumbai, India), so it can follow you to another phone. Only you can read or change it; our security rules block everyone else, including other users.</p>
+
+<h2>Quick search (AI answers)</h2>
+<p>Quick search first looks for your question among GK Master's own questions, on your phone. If no match is found, the question you type, and any photo you choose to add, is sent to our server, which passes it to an AI service to get an answer: Groq (our main provider) or ScaleMax (a backup when Groq is busy). The question and photo are used only to answer you. We do not store photos. To make repeat questions faster, answers to typed questions may be kept on our server, without your account or install ID attached. The AI providers process the request under their own terms. Recent searches are saved only on your phone. If you tap "Suggest this question", the question text is sent to our server for review and deleted after 90 days.</p>
+
+<h2>Government Jobs and Calendar</h2>
+<p>Your saved jobs, calendar events, reminders and optional job profile (qualifications, date of birth, preferred states and job types) are stored only on your phone and are never uploaded. Reminders are delivered by your phone's own notification system. If you report incorrect job information, the job, the reason and any note you type are sent to our server and deleted after 90 days. Job listings link to official government websites. GK Master is not affiliated with any government body and never asks for government-portal passwords, OTPs, Aadhaar or bank details.</p>
+
+<h2>Information the app sends</h2>
+<table>
+<tr><th>What</th><th>Why</th><th>Who receives it</th></tr>
+<tr><td>Email address and account ID</td><td>To create and secure your account</td><td>Google Firebase Authentication</td></tr>
+<tr><td>Quiz progress, bookmarks, mistakes, settings</td><td>To keep your progress in your account</td><td>Google Cloud Firestore (Mumbai)</td></tr>
+<tr><td>Questions and photos you send to Quick search</td><td>To get an AI answer</td><td>Our server (Cloudflare), Groq, ScaleMax</td></tr>
+<tr><td>Your account ID with a redeemed code (for example a family code)</td><td>To grant the Pro access the code gives</td><td>Our server (Cloudflare)</td></tr>
+<tr><td>Your account ID</td><td>To keep your points balance and points pass for rewarded ads, and to credit a rewarded ad once</td><td>Our server (Cloudflare)</td></tr>
+<tr><td>Advertising ID, device and app information, IP address, ad interactions</td><td>To show ads, measure them and prevent fraud</td><td>Google AdMob</td></tr>
+<tr><td>Purchase records and your account ID</td><td>To process Pro subscriptions and restore them on a new phone</td><td>Google Play and RevenueCat</td></tr>
+<tr><td>App-integrity signals</td><td>To confirm the app is the genuine version from Google Play</td><td>Google Play Integrity</td></tr>
+<tr><td>Standard technical request data (IP address, time)</td><td>To download question and job updates, and protect the service</td><td>Our server (Cloudflare)</td></tr>
+<tr><td>Reports of incorrect job information</td><td>To correct job listings</td><td>Our server (Cloudflare), kept 90 days</td></tr>
+</table>
+
+<h2>Advertising</h2>
+<p>Free users see an ad after finishing a quiz round. Anyone can choose to watch rewarded ads to earn points. Ads are provided by Google AdMob, which may use your device's advertising ID. In the European Economic Area, the UK and other regions where consent is required, the app asks for your consent first. You can change your choice at any time in <em>Settings → Ad privacy choices</em>, and reset or delete your advertising ID in your phone's settings (Settings → Google → Ads). Learn more at <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a>.</p>
+
+<h2>Payments</h2>
+<p>Pro subscriptions are bought through Google Play. We never see or store your card or payment details. RevenueCat processes the purchase receipt so the app can unlock Pro; see <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
+
+<h2>What we do not do</h2>
+<ul>
+<li>We do not sell your information or share it with advertisers beyond what AdMob needs to show ads.</li>
+<li>We do not collect your name, phone number, contacts, files, messages or precise location.</li>
+<li>We do not keep the photos you send to Quick search.</li>
+<li>We do not knowingly collect information from children under 13. The app is intended for students preparing for competitive exams.</li>
+</ul>
+
+<h2>How long information is kept</h2>
+<p>Your account and synced progress are kept until you delete your account. Points balances are deleted after 12 months of inactivity. Ad-transaction records used to prevent double-crediting are deleted after 30 days. Information held by Google, Cloudflare, Groq, ScaleMax and RevenueCat is kept under their own policies.</p>
+
+<h2>Deleting your account and data</h2>
+<p>In the app, open <em>Settings → Account → Delete account</em>. This permanently deletes your account and all progress saved to it. You can also ask us to delete it without the app: see <a href="delete-account.html">how to delete your account</a>. Uninstalling the app deletes the data stored only on your phone.</p>
+
+<h2>Security</h2>
+<p>All connections use HTTPS. Your synced data is protected by security rules so that only you can read it. Unlock keys on your phone are encrypted with the Android Keystore.</p>
+
+<h2>Your choices and rights</h2>
+<p>You can see and delete your data as described above, and stop personalised ads through Ad privacy choices or your phone's ad settings. Depending on where you live, you may have further rights under laws such as India's Digital Personal Data Protection Act 2023 or the GDPR. To use them, contact us.</p>
+
+<h2>Changes</h2>
+<p>We will post any changes on this page and update the date above.</p>
+
+<h2>Contact</h2>
+<p>Questions or requests: <a href="mailto:shunyarachna@gmail.com">shunyarachna@gmail.com</a>.</p>
+</main></body>
+</html>
